@@ -5,10 +5,10 @@
 #include"Net/UnrealNetwork.h"
 UAuraAttributeSet::UAuraAttributeSet()
 {
-	InitHealth(100.f);
-	InitMana(100.f);
-	InitMaxHealth(500.f);
-	InitMaxMana(500.f);
+	InitHealth(50.f);
+	InitMana(10.f);
+	InitMaxHealth(100.f);
+	InitMaxMana(50.f);
 }
 
 //记得在25课提问为什么复制四遍而不是写一个function在放入不同变量
